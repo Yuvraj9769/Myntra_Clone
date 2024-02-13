@@ -1,0 +1,769 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+  background-color: #ffff;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  box-shadow: -1px 2px 10px 0px gray;
+}
+
+.header-1 {
+  height: 75%;
+  width: 13%;
+}
+
+.header-1:hover {
+  cursor: pointer;
+}
+
+.img-head {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.h-box-1 {
+  display: flex;
+  align-items: center;
+  width: 625px;
+  height: 100%;
+  justify-content: space-around;
+  padding-left: 50px;
+}
+
+.head-h5 {
+  color: rgb(54, 52, 52);
+  border-bottom: 2px solid black;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  border-bottom: 3px solid transparent;
+}
+
+.pink:hover {
+  cursor: pointer;
+  border-bottom: 3px solid rgb(238, 30, 127);
+}
+
+.red:hover {
+  cursor: pointer;
+  border-bottom: 3px solid rgb(253, 34, 64);
+}
+
+.yellow:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #ff960d;
+}
+
+.skyblue:hover {
+  cursor: pointer;
+  border-bottom: 3px solid rgb(18, 188, 255);
+}
+
+.std {
+  position: relative;
+}
+
+#new {
+  position: absolute;
+  color: rgb(238, 30, 127);
+  top: 19px;
+  right: -12px;
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-2 {
+  height: 100%;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.h4-box-2 {
+  font-size: 18px;
+  height: 45%;
+}
+
+.h4-box-2-1:hover {
+  cursor: pointer;
+}
+
+.sub-div-1 {
+  background-color: #f5f5f5;
+  width: 365px;
+  height: 60%;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 2px;
+  justify-content: space-between;
+  border: 1px solid transparent;
+}
+
+.sub-div-1:focus-within {
+  background-color: white;
+  border: 1px solid #c3c3c3;
+}
+
+#inp {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 5px 2px;
+  height: 70%;
+  width: 330px;
+  font-size: 13px;
+}
+
+.sub-div-1-2 {
+  height: 60%;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 2px;
+  justify-content: space-between;
+  width: 170px;
+}
+
+.h4-box-2-1 {
+  margin-right: 1px;
+  font-size: 20px;
+  display: flex;
+  width: 55px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #3a3939;
+}
+
+.h4-box-2-1 span {
+  font-size: 12px;
+  color: rgb(24, 23, 23);
+}
+
+.h4-box-2-1 span:hover {
+  cursor: pointer;
+}
+
+.addeditems {
+  position: absolute;
+  right: 20px;
+  background: red;
+  padding: 1px 2px;
+}
+
+.hero-div {
+  width: 100%;
+  height: 1890px;
+  padding: 15px 0px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.shop-by {
+  color: rgb(254, 200, 7);
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 10px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.shop-div {
+  width: 100%;
+  height: 96%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-main-div {
+  width: 97%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.boxes-shop {
+  background-color: black;
+  height: 260px;
+  width: 187px;
+  color: rgb(224, 195, 128);
+  display: flex;
+  padding-bottom: 4px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.boxes-shop:hover {
+  cursor: pointer;
+}
+
+.p-shop {
+  font-size: 18px;
+}
+
+.h3-shop {
+  font-size: 24px;
+}
+
+.footerdiv {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(250, 251, 252);
+}
+
+.foot-maindiv {
+  width: 90%;
+  height: 96%;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.maindiv-1 {
+  width: 95%;
+  height: 535px;
+  padding: 5px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.foot-box1 {
+  width: 135px;
+  height: 205px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.foot-box2 {
+  width: 160px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.foot-box3 {
+  width: 295px;
+  height: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.foot-box4 {
+  width: 310px;
+  height: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.ketouch {
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first-div-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+}
+
+.footer-h4-box4-main {
+  width: 225px;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px;
+  font-family: serif;
+  color: rgb(119, 123, 133);
+}
+
+.searches {
+  grid-column: 1/5;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid rgb(234, 234, 236);
+  padding-bottom: 15px;
+}
+
+.flipakrt-comp:hover {
+  cursor: pointer;
+}
+
+.footer-h4-box4 span {
+  color: black;
+}
+
+.icons-footer {
+  color: rgb(105, 110, 121);
+  font-size: 28px;
+  width: 170px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ptext-foot {
+  font-size: 11px;
+}
+
+.box-1-search {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-1-search p {
+  background-color: rgb(234, 234, 236);
+  width: 88%;
+  height: 1px;
+}
+
+.searches p {
+  color: rgb(119, 123, 133);
+}
+
+.footdiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 17px;
+  padding: 4px 0px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.footdiv p>span {
+  font-weight: bolder;
+  color: rgb(82, 108, 208);
+}
+
+.footdiv p>span:hover {
+  cursor: pointer;
+}
+
+.foot-box1 li,
+.foot-box2 li {
+  margin: 6px 0px;
+}
+
+.foot-box1 h5,
+.foot-box2 h5:hover {
+  cursor: pointer;
+}
+
+.foot-box1 li,
+.foot-box2 li:hover {
+  cursor: pointer;
+}
+
+.liitems {
+  list-style: none;
+  color: rgb(119, 123, 133);
+}
+
+.icons-footer p:hover {
+  cursor: pointer;
+}
+
+/* Men */
+.hero-div2 {
+  width: 100%;
+  height: 1220px;
+  padding: 15px 0px;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shop-div2 {
+  width: 100%;
+  height: 91%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remove {
+  border: none;
+  width: 100%;
+  background: red;
+  color: white;
+  padding: 8px;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+.remove:hover {
+  cursor: pointer;
+  background-color: rgb(216, 27, 27);
+}
+
+.boxes-shop2 {
+  background-color: white;
+  height: 340px;
+  width: 200px;
+  color: rgb(224, 195, 128);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 30px;
+  padding: 0px 5px 4px 5px;
+}
+
+.boxes-shop2:hover {
+  cursor: pointer;
+  box-shadow: -1px 6px 13px 0px gray;
+}
+
+
+.p-shop2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  width: 88%;
+}
+
+.h3-shop2 {
+  font-size: 13px;
+  color: rgb(119, 123, 133);
+  font-weight: 100;
+  width: 88%;
+}
+
+.price-div {
+  width: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.ogprice {
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+}
+
+.offer-price {
+  font-size: 11px;
+  text-decoration: line-through;
+  color: rgb(119, 123, 133);
+}
+
+.discount {
+  font-size: 11px;
+  color: rgb(255, 153, 175);
+}
+
+.main-price-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
+
+.btn-men {
+  border: none;
+  width: 100%;
+  background: rgb(46 175 46);
+  color: white;
+  padding: 8px;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+.btn-men:hover {
+  cursor: pointer;
+  background: rgb(39, 148, 39);
+}
+
+/* cart msg box */
+.cartmsg {
+  background-color: white;
+  height: 75px;
+  width: 330px;
+  position: fixed;
+  top: 30px;
+  left: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #17a39d;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+.carttxtmsg {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bnts-cartmsg {
+  width: 95%;
+  height: 39px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.btnmsg-1 {
+  padding: 5px 20px;
+  border-radius: 5px;
+  height: 30px;
+  border: none;
+  width: 85px;
+  font-size: 14px;
+  background-color: #0dff49;
+  color: black;
+}
+
+.btnmsg-2 {
+  border-radius: 5px;
+  height: 30px;
+  border: none;
+  width: 49px;
+  font-size: 24px;
+  color: black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -48px;
+  right: -42px;
+  background-color: red;
+}
+
+.btnmsg-1,
+.btnmsg-2:hover {
+  cursor: pointer;
+}
+
+/* Cart component */
+
+.Container-cart {
+  min-height: 150px;
+  width: 94vw;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0px;
+}
+
+.main-cart {
+  min-height: 295px;
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.cartitem {
+  min-height: 255px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-price {
+  height: 225px;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-price-div {
+  height: 95%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cart-box-1 {
+  height: 115px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-bottom: 2px solid gray;
+}
+
+.subbox-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.cart-box-2 {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cart-btn {
+  background-color: #fd1e99;
+  font-weight: bold;
+  color: #ffffff;
+  width: 100%;
+  height: 35px;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: all 1s ease;
+}
+
+.cart-btn:hover {
+  cursor: pointer;
+  background-color: #d11f81;
+  scale: 0.97;
+
+}
+
+.discountrs {
+  color: #14f7d8;
+}
+
+.rsdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-main-div2 {
+  width: 80%;
+  height: 260px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  margin: 10px 0px;
+  padding-left: 5px;
+  border: 1px solid #484646;
+  border-radius: 8px;
+}
+
+.deletecart {
+  font-size: 30px;
+}
+
+.deletecart:hover {
+  cursor: pointer;
+}
+
+.boxes-shop3 {
+  background-color: white;
+  height: 250px;
+  width: 450px;
+  color: rgb(224, 195, 128);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+  margin-right: 30px;
+  padding: 0px 5px 4px 5px;
+}
+
+.cartinfo {
+  width: 230px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.deliverdate {
+  font-size: 13px;
+  color: #02ffff;
+  font-weight: bold;
+}
+
+.main-price-div2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 66%;
+}
+
+/* Spinnerdiv */
+
+.spinnerdiv {
+  height: 96vh;
+  width: 96vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spin-maindiv {
+  background-color: transparent;
+  height: 300px;
+  width: 300px;
+  font-size: 130px;
+  animation: spin 1.5s ease infinite normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
